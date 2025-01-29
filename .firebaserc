@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "login-tst-13239",
+    "dev": "login-tst-13239",
+    "prod": "login-criatividade-digital"
+  }
+}
