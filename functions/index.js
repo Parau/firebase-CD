@@ -35,6 +35,7 @@ const generateUserClaimsExcel = require('./src/listAuthenticatedData');
 //const getUserBookCodes = require('./src/getUserBookCodes') //retirado se for usar precisa alterar o controle de acesso para não indicar explicitamente os domínios válidos
 const getUserBookData = require('./src/APIgetUserBookData');
 const getUserConquistas = require('./src/APIgetUserConquistas');
+const updateConquistas = require('./src/updateConquistas');
 
 // Export all functions so Firebase can see them
 exports.onUserCreated = require('./src/onUserCreate').onUserCreated; //Precisa manter no formato v1 devido ao evento não estar disponível na v2
@@ -44,3 +45,4 @@ exports.generateUserClaimsExcel = generateUserClaimsExcel;
 //exports.getUserBookCodes = getUserBookCodes;
 exports.getUserBookData = getUserBookData.getUserBookData;
 exports.getUserConquistas = getUserConquistas.getUserConquistas;
+exports.updateConquistas = updateConquistas;
